@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+:active, :hover, :focus {       
+    outline: 0;
+    outline-offset: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    width: 13rem;
+    border: 5px solid rgb(250, 138, 123);
+    padding: 10rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+body {
+    background: rosybrown;
+}
+
+button {
+    background: rgb(250, 138, 123);
+}
+
+button:hover {
+    background: rgb(221, 87, 69);
+}
+
+button:active {
+    background: rgb(151, 40, 25);
+}
+
+button, input {
+    border: none;
+    border-radius: 3px;
+}
+
+
